@@ -1,0 +1,56 @@
+html, body, nav, ul, li, div,
+em, span, main, img, form, button,
+header, footer, figure, a, strong,
+span, input[type="text"] {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  text-decoration: inherit;
+  color: inherit;
+  background: transparent;
+}
+
+body {
+  display: block;
+}
+
+#swiggity_swooty {
+  font-size: 100px;
+  padding: 20px;
+  color: turquoise;
+}
+
+#main {
+  width: inherit;
+}
+
+.tab {
+  display: inline-block;
+  float: left;
+  justify-content: center;
+  height: 20px;
+  padding: 5px;
+}
+
+.tab-container {
+  height: 30px;
+  display: block;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  background-color: #ccc;
+  font-size: 20px;
+}
+
+.content {
+  position: relative;
+  padding: 5px;
+}
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;
+}
